@@ -1,0 +1,232 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mr Boshielo Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b6326f06ed.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1>Mr P Boshielo</h1>
+               <!-- <imag src="logo.png" class="logo"></imag>-->
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Projects">Projects</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                        <p>Junior Software Developer</p>
+                        <h1>Hi, I am <span>Piet </span><br> Boshielo From Ebony Park, Midrand</h1>
+                
+                    </div>
+                </div>
+        </div>
+    </div>
+    <!----------about------------>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                       <img src="images/profile 1.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p style="font-size: 25px;"><i>My name is Piet Boshielo and I am an Information Technology graduate from the Tshwane University of Technology. 
+                        I have a diploma in Software Development specialisation. I can work independently 
+                        in a busy environment and as part of a team. I am outgoing and tactful and can 
+                        listen well when solving problems. I am reliable and always ready to learn new 
+                        skills. </i></p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('interest')">Interest</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Confident</span>: HTML, CSS, JavaScript, SQL, PHP, C++, Java</li>
+                                <li><span>Familiar</span>: Phython, C#</li><br>
+
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="interest">
+                            <ul>
+                                <li>Software Development(programming)</li>
+                                <li>Mobile Development</li>
+                                <li>Business Analysis and modeling</li>
+                                <li>Database Development and administration</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>Senior Certificate:</span><br>Sovetjheza Secondary School<br>From 2012 To 2014</li>
+                                <li><span>N Dip IT(Software Development):</span><br>Tshwane University of Technology<br>From 2018 To 2023</li>
+                                <li><span>Microsoft Certificate</span>: Security, Compliance, and Identity Fundamentals <br>Motse Innovation Center<br> June-2023 - Present  </li>
+                                <li><span>Microsoft Softkills Certificate</span>: ACKNOWLEDGEMENT OF ATTENDANCE <br>Motse Innovation Center<br> June-2023 - Present</li>
+                            </ul>
+                        </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!---------projects----------->
+    <div id="Projects">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Weather App</h2>
+                    <p>This weather app is one of best free weather apps with full
+                       features: Local weather, weather map (weather map service) and weather widgets.
+                    </p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fas fa-crop-alt"></i>
+                    <h2>LMS</h2>
+                    <p>The system is a website called Leave Management system that will allow users
+                        to be able to apply for Leave in a secure way. This system will allow
+                        users to register themselves before getting an internship.
+                    </p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fab fa-app-store"></i>
+                    <h2>National Traffic Application</h2>
+
+                    <p>This is the system used to eliminate the manual way of issuing tickets on the road. This will reduce the time spend
+                        writing tickets on the paper. Issuing tickets electronically will enable the data of reflect on the system same
+                        thus reducing corruption. The system scans the ID of the driver then retrieves the personal information as well as the 
+                        details of the car if they have valid license.
+                    
+                    </p>
+                    <a href="#">learn more</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!--------------------------portfolio------------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/image.png">
+                    <div class="layer">
+                        <h3>Weather Application</h3>
+                        <p>This weather app is one of best free weather apps with full
+                            features: Local weather, weather map (weather map service) and weather widgets.</p>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/lms.jpg">
+                    <div class="layer">
+                        <h3>LMS</h3>
+                        <p>The system is a website called Leave Management system that will allow users
+                            to be able to apply for Leave in a secure way.</p>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/download.png">
+                    <div class="layer">
+                        <h3>National Traffic Application</h3>
+                        <p>This is the system used to eliminate the manual way of issuing tickets on the road. This will reduce the time spend
+                            writing tickets on the paper. Issuing tickets electronically will enable the data of reflect on the system same
+                            thus reducing corruption. The system scans the ID of the driver then retrieves the personal information as well as the 
+                            details of the car if they have valid license.
+                        </p>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!--------------Contact------------------>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i>boshielopiet@gmail.com</p><br>
+                    <p><i class="fas fa-phone-square-alt"></i>0793605704</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/"><i class="fab fa-facebook"></i></a>
+                        <a href="https://twitter.com/"><i class="fab fa-twitter-square"></i></a>
+                        <a href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
+                        <a href="www.linkedin.com/in/piet-boshielo-220083256"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/BoshieloPiet"><i class="fab fa-github"></i></a>
+                    </div>
+                    <a href="documents/CV_Boshielo.pdf" class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form class="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="text" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+            
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright © Boshielo. Made with <i class="fas fa-heart"></i> by Boshielo Piet</p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+
+        var sidemenu=document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right ="0";
+        }
+        function closemenu(){
+            sidemenu.style.right ="-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycb4tHsegzDxZ2KT6AwzZblTU31mvM6iRABt7dATwh11niir2Ssp-dZPzeiyfrawEk6p/exec'
+        const form = document.forms['submit-to-google-sheet']
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => console.log('Success!', response))
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
